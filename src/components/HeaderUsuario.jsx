@@ -26,10 +26,10 @@ const HeaderUsuario = () => {
                     <Link to={'/usuario/mis-testimoniales'}>Mis testimoniales</Link>
                 </nav>
                 <div className='w-3/12 flex justify-end'>
-                    <Link to={'/usuario/perfil'} className='w-fit flex gap-2 items-center bg-blue-50 px-4 py-2 rounded-md text-blue-900 font-medium'>
+                    <p className='w-fit flex gap-2 items-center bg-blue-50 px-4 py-2 rounded-md text-blue-900 font-medium'>
                         <UserIcon className='size-5' />
                         {usuario.nombre}
-                    </Link>
+                    </p>
                     <button onClick={e => cerrarSesion()} className=' bg-blue-50 rounded-md p-2 ml-1 text-blue-900 '>
                         <ArrowRightStartOnRectangleIcon className=' size-6'/>
                     </button>
