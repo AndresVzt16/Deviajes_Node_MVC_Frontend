@@ -16,7 +16,7 @@ const Testimoniales = () => {
     }
   }, [testimonialesGeneral]);
 
-  console.log(testimonialesGeneral);
+
 
   return (
     <div className="bg-gray-50 w-full h-[90vh] rounded-xl grid gap-10 md p-5">

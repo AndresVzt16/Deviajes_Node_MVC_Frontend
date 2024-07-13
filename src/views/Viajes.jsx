@@ -25,7 +25,7 @@ const Viajes = () => {
           clase: clase.nombre,
           salida: viaje.fecha_salida,
         };
-        console.log(boleto)
+       
       });
       setMisBoletos(tickets);
     }
