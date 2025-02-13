@@ -32,5 +32,7 @@
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1"
-  }
+  },
+  "homepage": "https://andresvzt16.github.io/Deviajes_Node_MVC_Frontend"
+
 }
